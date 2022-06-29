@@ -1,8 +1,10 @@
 function cutCancerCells(organism){
-  return organism.replace(/([a-z])C([a-z])|C([a-z])|([a-z])C|C|c|c /gm, ''); 
+  return organism.replace(/([a-z])C([a-z])|C([a-z])|([a-z])C|C|c| /gm, ''); 
 }
 
 /*
+https://www.codewars.com/kata/5931614bb2f657c18c0001c3/train/javascript
+
 DESCRIPTION:
 Your task is to write a function which cuts cancer cells from the body.
 
