@@ -6,7 +6,7 @@ function mygcd(x,y){
 }
 
 /*
-https://www.codewars.com/kata/5500d54c2ebe0a8e8a0003fd
+https://www.codewars.com/kata/5500d54c2ebe0a8e8a0003fd/train/javascript
 
 DESCRIPTION:
 Find the greatest common divisor of two positive integers. The integers can be large, so you need to find a clever solution.
