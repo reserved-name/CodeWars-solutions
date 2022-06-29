@@ -4,7 +4,7 @@ function findNextSquare(sq) {
 }
 
 /*
-https://www.codewars.com/kata/56269eb78ad2e4ced1000013
+https://www.codewars.com/kata/56269eb78ad2e4ced1000013/train/javascript
 
 DESCRIPTION:
 You might know some pretty large perfect squares. But what about the NEXT one?
