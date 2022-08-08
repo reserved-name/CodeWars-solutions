@@ -1,7 +1,7 @@
 function persistence(num) {
   var multiplicative_persistance = 0;
   while (num.toString().length > 1){
-    num = eval(num.toString().split('').join('*'));
+    num = num.toString().split('').reduce( (a, b) => a * b );
     multiplicative_persistance++;
   }
   return multiplicative_persistance;
